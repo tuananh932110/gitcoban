@@ -1,0 +1,92 @@
+/*
+max-width: 320px (điện thoại di động, hiển thị chiều dọc)
+max-width: 480px (điện thoại di động, hiển thị chiều ngang)
+max-width: 600px (máy tính bảng, hiển thị chiều dọc)
+max-width: 800px (máy tính bảng, hiển thị chiều ngang)
+max-width: 768px (máy tính bảng loại to, hiển thị chiều dọc)
+max-width: 1024px (máy tính bảng loại to, hiển thị chiều ngang)
+min-width: 1025px (từ size này trở lên là danh cho desktop thông thường).
+*/
+@media only screen and (min-width: 1025px){
+    .container, header, 
+    .featured-products, .specials,
+    .new-products, .arrivals,
+    .about, .instagram, .advertisement {
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .inner {
+        width: 92%;
+    }
+
+    .menu-main ul.nav li a {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .left  {
+        float: left;
+    }
+    
+    .right {
+        float: left;
+        padding-left: 10px;
+    } 
+
+    .footer {
+        width: 100%;
+        padding: 50px;
+        font-size: 10px;
+    }
+
+    .instagram{
+        display: none;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1024px){
+    .container, header, 
+    .featured-products, .specials,
+    .new-products, .arrivals,
+    .about, .instagram, .advertisement {
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .inner {
+        width: 90%;
+    }
+
+    .menu-main ul.nav li a {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .left  {
+        float: left;
+        padding-left: 20%;
+    }
+    
+    .right .makeup img {
+        display: none;
+    } 
+
+    .footer {
+        width: 100%;
+        padding: 50px;
+        font-size: 10px;
+    }
+
+    .col:nth-of-type(3),
+    .cord:nth-of-type(5), 
+    .cord:nth-of-type(4),
+    .tie:nth-of-type(3), 
+    .instagram{
+        display: none;
+    }
+}

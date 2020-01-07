@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Tahu-';
+  src: url('../fonts/Tahu-.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Tahu-.woff') format('woff'), 
+  url('../fonts/Tahu-.ttf')  format('truetype'), 
+  url('../fonts/Tahu-.svg#Tahu!') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

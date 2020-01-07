@@ -1,0 +1,513 @@
+@import 'font-face.css';
+@import 'slide.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    width: 1920px;
+}
+
+/* ===== BG-MENU-TOP =====*/
+
+.bg-menu-top {
+    background-color: #000;
+    padding: 17px 0 14px 0;
+}
+
+.inner {
+    width: 1172px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu-top {
+    font-size: 15px;
+    font-family: 'Raleway-Regular', sans-serif;
+}
+
+.menu-top p {
+    text-transform: uppercase;
+    color: #fff;
+    float: left;
+}
+
+.menu-top ul {
+    float: right;
+    color: #fff;
+}
+
+.menu-top ul li {
+    float: left;
+    padding-left: 39px;
+}
+
+.menu-top ul li input {
+    outline: none;
+    
+}
+
+.menu-top ul li input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    font-weight: inherit;
+    font-size: 100%;
+}
+
+.menu-top ul li input::-webkit-search-decoration,
+.menu-top ul li input::-webkit-search-cancel-button {
+    display: none;
+}
+
+.menu-top ul li span {
+    padding-left: 10px;
+    color: #b5b5b5;
+}
+
+.menu-top ul li input[type=search] {
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat right 10px center;
+    border: 1px solid #ccc;
+    padding: 9px 10px 9px 32px;
+
+    border-radius: 10px;
+
+    transition: all .5s;
+}
+
+.menu-top ul li input[type=search]:focus {
+    width: 130px;
+    background-color: #fff;
+    border-color: #66CC75;
+    box-shadow: 0 0 5px rgba(109, 207, 256, .5);
+}
+
+.menu-top ul li input::-webkit-input-placeholder {
+    color: red;
+}
+
+#search input[type=search]{
+    width: 15px;
+    padding-left: 10px;
+    color: transparent;
+    cursor: pointer;
+}
+
+#search input[type=search]:hover {
+    background-color: #fff;
+}
+
+#search input[type=search]:focus {
+    width: 330px;
+    padding-left: 10px;
+    color: #000;
+    background-color: #fff;
+    cursor: auto;
+}
+
+#search input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+/* ===== BG-MENU-MAIN =====*/
+
+.bg-menu-main {
+    background-color: #fff;
+}
+
+.menu-main .logo {
+    float: left;
+    font-family: 'Raleway-Extrabold', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #000;
+}
+
+.menu-main .logo span {
+    color: #969696;
+}
+
+.menu-main .nav {
+    float: right;
+}
+
+.menu-main .nav li {
+    float: left;
+}
+
+.menu-main ul.nav li a {
+    font-family: 'Raleway-Bold', sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 15px;
+    padding: 15px;
+    display: block;
+}
+
+.menu-main ul.nav li a:hover {
+    background-color: #ebebeb;
+}
+
+.menu-main ul.nav li a span {
+    position: relative;
+    left: 0px;
+    top: -2px;
+}
+
+/* ===== BANNER ===== */
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.dotline {
+    position: absolute;
+    top: 576px;
+    left: 50%;
+}
+/* ===== FEATURED-PRODUCTS ===== */
+
+.featured-products {
+    width: 1920px;
+    padding: 98px 0 0px 0;
+    margin-bottom: 50px;
+}
+
+.row-first {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 98px;
+}
+
+.row-second {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.info h3 {
+    margin: 16px 0;
+    font-family: 'Raleway-SemiBold', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.info p {
+    margin-bottom: 19px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.info span {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 16px;
+    color: #d21d1d;
+    font-weight: bold;
+}
+
+.info span.del {
+    text-decoration: line-through;
+    color: #000;
+}
+
+.info .ranking {
+    margin-top: 20px;
+}
+
+.info .ranking .fa-star {
+    color: #c60d0d;
+}
+
+.info .ranking .fa-star:last-child {
+    color: #c5c5c5;
+}
+
+/* ===== SPECIALS ===== */
+
+.specials {
+    width: 1920px;
+    height: 774px;
+    background-image: url("../images/special.png");
+}
+
+.arrivals {
+    width: 1920px;
+    height: 774px;
+    background-image: url("../images/arrival.png");
+}
+
+.specials h2, .arrivals h2 {
+    font-family: 'Tahu-';
+    font-weight: 100;
+    font-size: 70px;
+    color: #c60d0d;
+    padding: 75px 0 34px 0;
+    text-align: center;
+}
+
+.specials h2 span, .arrivals h2 span {
+    font-family: 'Raleway-Regular', sans-serif ;
+    font-size: 50px;
+    font-weight: 100;
+    color: #000;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.pagination {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pagination button {
+    width: 45px;
+    height: 45px;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+.new-products {
+    width: 1920px;
+    margin: 100px 0;
+}
+
+.tried {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* ===== advertisement =====*/
+
+.advertisement {
+    width: 1920px;
+    margin-bottom: 100px;
+}
+
+.left  {
+    float: left;
+}
+
+.left .eyes {
+    margin-bottom: 30px;
+}
+
+.right {
+    float: right;
+}
+
+/* ===== about =====*/
+
+.about {
+    width: 1920px;
+    height: 219px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-heading {
+    font-family: 'Raleway-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 53.36px;
+    color: #000;
+    padding-top: 97px;
+    padding-bottom: 21px;
+}
+
+.about-child {
+    font-family: 'Raleway-Regular', sans-serif;
+    font-weight: 100;
+    color: #000;
+}
+
+.about-paragraph {
+    font-family: 'Raleway-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 17.32px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.instagram {
+    width: 1920px;
+}
+
+.instagram-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* ===== footer =====*/
+.footer {
+    width: 1920px;
+    background: url(../images/bg.png) repeat-x #000;
+    padding: 69px 99px;
+    box-sizing: border-box;
+}
+
+ .sack {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+ }
+
+ .colum {
+    width: 341px;
+    text-transform: uppercase;
+ }
+
+ .colum h3 {
+    color: #fff;
+    margin-bottom: 51px;
+ }
+
+ .colum ul li {
+     margin-bottom: 25px;
+ }
+
+ .colum ul li a {
+     color: #c8c8c8;
+ }
+
+ .combination {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+.information {
+    width: 268px;
+}
+
+.information h2 {
+    font-family: 'Raleway-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.information p {
+    font-family: 'Raleway-Regular', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #c8c8c8;
+    line-height: 2.5em;
+    margin-top: 65px;
+}
+
+.information p small {
+    color: #fff;
+}
+
+.information p a {
+    color: #fff;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icon {
+    width: 280px;
+    margin-top: 93px;
+    line-height: 6em;
+}
+
+.icon a {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 41px;
+    box-sizing: border-box;
+}
+
+.subscribe {
+    margin-top: 93px;
+    color: #fff;
+    width: 280px;
+}
+
+.subscribe h4 {
+    font-family: 'Raleway-Regular', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+}
+
+.subscribe form {
+    margin-top: 49px;
+    font-family: 'Raleway-Regular', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #c8c8c8;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #262626;
+}
+
+
+
+.subscribe form p {
+    margin-top: 39px;
+}
+
+.subscribe form p input[type=email] {
+    width: 215px;
+    border: none;
+    background-color: #000;
+    color: #c8c8c8;
+    padding: 5px auto;
+}
+
+.subscribe form p input[type=button] {
+    border: none;
+    background-color: #000;
+    color: #c8c8c8;
+    padding: 5px auto;
+    cursor: pointer;
+}
+
+.copyright {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+
+.copyright small {
+    color: #c8c8c8;
+}
+
